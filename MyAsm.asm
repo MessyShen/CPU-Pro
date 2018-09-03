@@ -10,6 +10,7 @@ LOOP:   MVRD R7, 0
         TEST R4, 1
         ADD  R2, R4
         SHR  R1
+        JR LOOP
 
 OUTPUT: 
         MVRR R3, R2
